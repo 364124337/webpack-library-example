@@ -1,0 +1,22 @@
+{
+  "name": "webpack-library_oxn",
+  "version": "1.1.0",
+  "description": "webpack-library_oxn 使用webpack打包自己写的一个JavaScript类库，并上传至NPM",
+  "main": "dist/number.word.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "oxn",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "lodash": "^4.17.19",
+    "webpack": "^4.44.1"
+  }
+}
