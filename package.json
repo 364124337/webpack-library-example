@@ -7,7 +7,18 @@
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/364124337/webpack-library-example.git"
+  },
+  "keywords": [
+    "webpack",
+    "number",
+    "word"
+  ],
+  "bugs": {
+    "url": "https://github.com/364124337/webpack-library-example/issues"
+  },
   "author": "oxn",
   "license": "ISC",
   "devDependencies": {
@@ -17,6 +28,7 @@
     "@babel/preset-env": "^7.11.0",
     "babel-loader": "^8.1.0",
     "lodash": "^4.17.19",
-    "webpack": "^4.44.1"
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
